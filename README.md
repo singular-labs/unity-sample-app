@@ -18,4 +18,9 @@ To run the sample app you'll have to configure your own API Key / Secret as foll
 1. Retrieve the API Key & Secret from your account's SDK Keys page
 2. Open the unity-sample-app project using the Unity3d editor
 3. Click on the SingularSDK object in the canvas object
+
+![Alt text](https://cdn.singular.net/sample-apps-resources/Unity/unity-singular-sdk-object.png)
+
 4. In the Inspector pane, copy the API key & Secret to the Singular API Key / Secret fields in the Singular SDK script
+
+![Alt text](https://cdn.singular.net/sample-apps-resources/Unity/unity-apikey-secret.png)
