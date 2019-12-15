@@ -24,6 +24,9 @@ public class Main : MonoBehaviour, SingularLinkHandler {
         // By default InitializeOnAwake is true, which will automatically initialize the SDK when the scene loads.
         SingularSDK.InitializeSingularSDK();
 
+        // Registering the class as the Singular Link handler.
+        SingularSDK.SetSingularLinkHandler(this);
+
         ShowToast("SDK initialized");
     }
 
